@@ -1,0 +1,1585 @@
+[
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "AddDistributorToArea",
+    "RelativePath": "api/Area/add-distributor-to-area/{idArea}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArea",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id-ditributor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "AddStaffToArea",
+    "RelativePath": "api/Area/add-staff-to-area/{idArea}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArea",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id-staff",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "Create",
+    "RelativePath": "api/Area/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.AreaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "Delete",
+    "RelativePath": "api/Area/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "DetailStaffInAre",
+    "RelativePath": "api/Area/detail-staff-in-area/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Area/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "GetById",
+    "RelativePath": "api/Area/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "GetByName",
+    "RelativePath": "api/Area/find-by-name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "RemoveDistributorInArea",
+    "RelativePath": "api/Area/remove-distributor-in-area/{idArea}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArea",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id-ditributor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "RemoveStaffInArea",
+    "RelativePath": "api/Area/remove-staff-in-area/{idArea}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArea",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id-staff",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AreaController",
+    "Method": "Update",
+    "RelativePath": "api/Area/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "name-area",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.UserAccessorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.AuthController",
+    "Method": "RevokeToken",
+    "RelativePath": "api/Auth/revoke",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.CommentController",
+    "Method": "Create",
+    "RelativePath": "api/Comment/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.CommentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.CommentController",
+    "Method": "Delete",
+    "RelativePath": "api/Comment/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.CommentController",
+    "Method": "GetAll",
+    "RelativePath": "api/Comment/find-all/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.CommentController",
+    "Method": "Reply",
+    "RelativePath": "api/Comment/reply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.CommentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "Create",
+    "RelativePath": "api/Distributor/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.DistributorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "Delete",
+    "RelativePath": "api/Distributor/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "GetAll",
+    "RelativePath": "api/Distributor/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "GetById",
+    "RelativePath": "api/Distributor/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "GetByName",
+    "RelativePath": "api/Distributor/find-by-name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "GetMe",
+    "RelativePath": "api/Distributor/get-me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Distributor/reset-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "SettingPermission",
+    "RelativePath": "api/Distributor/setting-permission",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.SettingPermissionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.DistributorController",
+    "Method": "Update",
+    "RelativePath": "api/Distributor/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.DistributorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.GrantPermissionController",
+    "Method": "Create",
+    "RelativePath": "api/GrantPermission/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.GrantPermissionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.GrantPermissionController",
+    "Method": "Delete",
+    "RelativePath": "api/GrantPermission/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.GrantPermissionController",
+    "Method": "GetAll",
+    "RelativePath": "api/GrantPermission/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.GrantPermissionController",
+    "Method": "GetById",
+    "RelativePath": "api/GrantPermission/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.GrantPermissionController",
+    "Method": "GetByName",
+    "RelativePath": "api/GrantPermission/find-by-name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.GrantPermissionController",
+    "Method": "Put",
+    "RelativePath": "api/GrantPermission/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.GrantPermissionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.MediaController",
+    "Method": "Create",
+    "RelativePath": "api/Media/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filePath",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.MediaController",
+    "Method": "Delete",
+    "RelativePath": "api/Media/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.MediaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Media/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.MediaController",
+    "Method": "GetAllForMe",
+    "RelativePath": "api/Media/find-all-for-me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.NotificationController",
+    "Method": "Create",
+    "RelativePath": "api/Notification/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.NotificationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.NotificationController",
+    "Method": "Delete",
+    "RelativePath": "api/Notification/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.NotificationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Notification/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.NotificationController",
+    "Method": "GetAllForMe",
+    "RelativePath": "api/Notification/find-all-for-me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionController",
+    "Method": "Create",
+    "RelativePath": "api/Position/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.PositionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionController",
+    "Method": "Delete",
+    "RelativePath": "api/Position/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionController",
+    "Method": "GetAll",
+    "RelativePath": "api/Position/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionController",
+    "Method": "GetById",
+    "RelativePath": "api/Position/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionController",
+    "Method": "GetByName",
+    "RelativePath": "api/Position/find-by-name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionController",
+    "Method": "Update",
+    "RelativePath": "api/Position/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.PositionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionGroupController",
+    "Method": "Create",
+    "RelativePath": "api/PositionGroup/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.PositionGroupDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionGroupController",
+    "Method": "Delete",
+    "RelativePath": "api/PositionGroup/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionGroupController",
+    "Method": "GetAll",
+    "RelativePath": "api/PositionGroup/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionGroupController",
+    "Method": "GetById",
+    "RelativePath": "api/PositionGroup/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionGroupController",
+    "Method": "GetByName",
+    "RelativePath": "api/PositionGroup/find-by-name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PositionGroupController",
+    "Method": "Update",
+    "RelativePath": "api/PositionGroup/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.PositionGroupDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PostController",
+    "Method": "Create",
+    "RelativePath": "api/Post/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.PostDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PostController",
+    "Method": "DeletRange",
+    "RelativePath": "api/Post/delete-range",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PostController",
+    "Method": "Delete",
+    "RelativePath": "api/Post/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PostController",
+    "Method": "GetAll",
+    "RelativePath": "api/Post/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PostController",
+    "Method": "Search",
+    "RelativePath": "api/Post/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PostController",
+    "Method": "Update",
+    "RelativePath": "api/Post/update-status/{id}/{status}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PostController",
+    "Method": "Update",
+    "RelativePath": "api/Post/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.PostDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.PostController",
+    "Method": "Upload",
+    "RelativePath": "api/Post/upload/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "filePath",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "Create",
+    "RelativePath": "api/StaffUser/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.StaffUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "Delete",
+    "RelativePath": "api/StaffUser/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "GetAll",
+    "RelativePath": "api/StaffUser/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "GetById",
+    "RelativePath": "api/StaffUser/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "GetByName",
+    "RelativePath": "api/StaffUser/find-by-name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "GetMe",
+    "RelativePath": "api/StaffUser/get-me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/StaffUser/reset-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "SettingPermission",
+    "RelativePath": "api/StaffUser/setting-permission",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.SettingPermissionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.StaffUserController",
+    "Method": "Update",
+    "RelativePath": "api/StaffUser/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.StaffUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.SupportAccountController",
+    "Method": "ChangeForgotPassword",
+    "RelativePath": "api/SupportAccount/change-forgot-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.NewPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.SupportAccountController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/SupportAccount/change-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.ChangePasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.SupportAccountController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/SupportAccount/forgot-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.SupportAccountController",
+    "Method": "VerifyCode",
+    "RelativePath": "api/SupportAccount/verify",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.ForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TaskForVisitController",
+    "Method": "Create",
+    "RelativePath": "api/TaskForVisit/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.TaskForVisitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TaskForVisitController",
+    "Method": "Detail",
+    "RelativePath": "api/TaskForVisit/detail-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TaskForVisitController",
+    "Method": "GetAll",
+    "RelativePath": "api/TaskForVisit/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TaskForVisitController",
+    "Method": "TaskForMe",
+    "RelativePath": "api/TaskForVisit/find-all-task-for-me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TaskForVisitController",
+    "Method": "GetById",
+    "RelativePath": "api/TaskForVisit/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TaskForVisitController",
+    "Method": "UploadAllFile",
+    "RelativePath": "api/TaskForVisit/upload-all-file/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileAssigned",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileReport",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile[]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TaskForVisitController",
+    "Method": "UploadReportFile",
+    "RelativePath": "api/TaskForVisit/upload-report-file/{id}/{status}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileReport",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TestController",
+    "Method": "Test",
+    "RelativePath": "api/Test/test0",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TestController",
+    "Method": "Test1",
+    "RelativePath": "api/Test/test1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.TestController",
+    "Method": "Test2",
+    "RelativePath": "api/Test/test2/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "Create",
+    "RelativePath": "api/User/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "GetAll",
+    "RelativePath": "api/User/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "GetById",
+    "RelativePath": "api/User/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "GetByName",
+    "RelativePath": "api/User/find-by-name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "GetMe",
+    "RelativePath": "api/User/get-me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/User/reset-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "SettingPermission",
+    "RelativePath": "api/User/setting-permission",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.SettingPermissionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.UserController",
+    "Method": "Update",
+    "RelativePath": "api/User/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.VisitController",
+    "Method": "Create",
+    "RelativePath": "api/Visit/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project_2_Web_Api.DTO.VisitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.VisitController",
+    "Method": "Delete",
+    "RelativePath": "api/Visit/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.VisitController",
+    "Method": "Detail",
+    "RelativePath": "api/Visit/detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.VisitController",
+    "Method": "GetAll",
+    "RelativePath": "api/Visit/find-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.VisitController",
+    "Method": "GetAllForMe",
+    "RelativePath": "api/Visit/find-all-for-me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.VisitController",
+    "Method": "GetById",
+    "RelativePath": "api/Visit/find-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.VisitController",
+    "Method": "HistoryVisitingSchedule",
+    "RelativePath": "api/Visit/history-visiting-schedule",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_2_Web_Api.Controllers.VisitController",
+    "Method": "Search",
+    "RelativePath": "api/Visit/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "staus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "distributorId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
